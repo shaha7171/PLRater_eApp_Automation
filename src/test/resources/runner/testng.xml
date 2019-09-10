@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Learning Testing">
+	<listeners>
+		<listener class-name="listeners.ExtentReporterNG"></listener>
+		
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener><!-- ReportNG -->
+	<!-- 	<listener class-name="utilities.MyTransformer"></listener> --><!-- Retry Logic -->
+		<listener class-name="listeners.CustomListeners"></listener><!-- Listeners  -->
+		<listener class-name="ErrorCollectors.TestListenerAdapter"></listener> <!-- SoftAssert -->
+	</listeners>
+
+
+	
+	<test name="Home Page Test">
+		<classes>
+ 			 <class name="Scratch.testScreenshot" /> 
+<!-- 			<class name="test.BumpingLogic" /> -->
+			
+			
+			
+		</classes>
+	</test>
+	
+ 
+
+</suite>

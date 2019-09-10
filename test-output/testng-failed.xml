@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Learning Testing]">
+  <listeners>
+    <listener class-name="listeners.ExtentReporterNG"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="listeners.CustomListeners"/>
+    <listener class-name="ErrorCollectors.TestListenerAdapter"/>
+  </listeners>
+  <test name="Home Page Test(failed)">
+    <classes>
+      <class name="Scratch.testScreenshot">
+        <methods>
+          <include name="setUp"/>
+          <include name="clickNext"/>
+          <include name="beforeTest"/>
+          <include name="AfterTest"/>
+          <include name="sendMail"/>
+        </methods>
+      </class> <!-- Scratch.testScreenshot -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Learning Testing] -->
