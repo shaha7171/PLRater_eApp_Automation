@@ -1,8 +1,0 @@
-INFO    2019-09-09 22:29:37,325 [main] base.BaseTest  - Config file loaded !!!
-INFO    2019-09-09 22:29:37,328 [main] base.BaseTest  - OR file loaded !!!
-INFO    2019-09-09 22:29:39,501 [main] base.BaseTest  - DB Connection established !!!
-INFO    2019-09-09 22:29:51,426 [main] base.BaseTest  - Clicking on an Element : gmailTxt_XPATH
-INFO    2019-09-09 22:29:51,673 [main] base.BaseTest  - Clicking on an Element : nxt_XPATH
-INFO    2019-09-09 22:29:53,953 [main] base.BaseTest  - Test Execution Completed !!!
-INFO    2019-09-09 22:29:53,993 [main] base.BaseTest  - Sending Mail...
-INFO    2019-09-09 22:29:59,586 [main] base.BaseTest  - Test Report has emailed!!!
